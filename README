@@ -71,6 +71,8 @@ METHODS
 
   $flags = $wheel->get_flags
   $wheel->set_flags( $flags )
+  $canonflags = $wheel->get_canonflags
+  $wheel->set_canonflags( $canonflags )
   $msec = $wheel->get_waittime
   $wheel->set_waittime( $msec )
   $str = $wheel->get_keyname( $sym )

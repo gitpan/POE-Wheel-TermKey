@@ -4,7 +4,7 @@
       "Paul Evans <leonerd@leonerd.org.uk>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110930",
+   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.112150",
    "license" : [
       "perl_5"
    ],
@@ -14,11 +14,6 @@
    },
    "name" : "POE-Wheel-TermKey",
    "prereqs" : {
-      "configure" : {
-         "requires" : {
-            "Module::Build" : "0.38"
-         }
-      },
       "runtime" : {
          "requires" : {
             "POE" : 0,
@@ -29,7 +24,7 @@
    "provides" : {
       "POE::Wheel::TermKey" : {
          "file" : "lib/POE/Wheel/TermKey.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -38,5 +33,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

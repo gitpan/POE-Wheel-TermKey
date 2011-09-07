@@ -9,7 +9,7 @@ use strict;
 use warnings;
 use base qw( POE::Wheel );
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Carp;
 
@@ -185,6 +185,10 @@ sub termkey
 
 =head2 $wheel->set_flags( $flags )
 
+=head2 $canonflags = $wheel->get_canonflags
+
+=head2 $wheel->set_canonflags( $canonflags )
+
 =head2 $msec = $wheel->get_waittime
 
 =head2 $wheel->set_waittime( $msec )
@@ -214,6 +218,8 @@ class. For more detail, see the L<Term::TermKey> documentation.
 foreach my $method (qw(
    get_flags
    set_flags
+   get_canonflags
+   set_canonflags
    get_waittime
    set_waittime
    get_keyname
